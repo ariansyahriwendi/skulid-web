@@ -1,11 +1,11 @@
 package baseClass
 
-import `object`.Login
+import `object`.teacher.TeacherLogin
 
 open class BaseStep {
     companion object {
 
-        val login = Login()
+        val teacherLogin = TeacherLogin()
 
     }
 }
